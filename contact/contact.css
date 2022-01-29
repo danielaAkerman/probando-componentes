@@ -1,0 +1,79 @@
+.seccion-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 667px;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: white;
+}
+
+.contacto {
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
+}
+@media (min-width: 900px) {
+  .contacto {
+    display: inline;
+    margin: 0;
+  }
+}
+
+.contenedor-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .contenedor-form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 71px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+@media (min-width: 900px) {
+  .form {
+    width: 50%;
+  }
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-nombre,
+.input-email {
+  width: calc(100% - 8px);
+  height: 45px;
+}
+
+.input-mensaje {
+  width: calc(100% - 8px);
+  height: 90px;
+}
+
+.boton {
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  background-color: #2c2c2c;
+  color: #dbdbdb;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}

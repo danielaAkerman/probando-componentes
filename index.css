@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.seccion-header {
+  background-color: #de4545;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  padding: 10px;
+}
+.contact-button {
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  background-color: #2c2c2c;
+  color: #dbdbdb;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.seccion-main {
+  background-color: #5fe0c9;
+  height: 569px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seccion-main-text {
+  color: black;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
+}
